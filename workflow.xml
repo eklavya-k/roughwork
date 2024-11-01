@@ -1,0 +1,71 @@
+<workflow-app name="w_flow_ruletest"
+        xmlns="uri:oozie:workflow:0.5">
+<global>
+    <configuration>
+        <property>
+            <name>mapreduce.job.queuename</name>
+            <value>${queue}</value>
+        </property>
+    </configuration>
+</global>
+<start to="shell-68d1"/>
+<kill name="Kill">
+<message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+</kill>
+<action name="shell-68d1">
+<shell xmlns="uri:oozie:shell-action:0.1">
+    <job-tracker>${jobTracker}</job-tracker>
+    <name-node>${nameNode}</name-node>
+    <configuration>
+    		<property>
+			<name>extra_conf</name>
+			<value>${extra_conf}</value>
+        	</property>
+    </configuration>
+    <exec>run.sh</exec>
+    <env-var>user_name=${user_name}</env-var>
+    <env-var>app_name=${app_name}</env-var>
+    <env-var>queue=${queue}</env-var>
+    <env-var>rule_service_jar=${rule_service_jar}</env-var>
+    <env-var>extra_jars=${extra_jars}</env-var>
+    <env-var>context_class=${context_class}</env-var>
+    <env-var>spark_processing_jar=${spark_processing_jar}</env-var>
+    <env-var>executor_memory=${executor_memory}</env-var>
+    <env-var>driver_memory=${driver_memory}</env-var>
+    <env-var>executor_cores=${executor_cores}</env-var>
+    <env-var>kryoserializer_buffer=${kryoserializer_buffer}</env-var>
+    <env-var>dryrun=False</env-var>
+    <env-var>extra_conf=${extra_conf}</env-var>
+    <env-var>user.name=${user_name}</env-var>
+    <env-var>mapreduce.job.user.name=${user_name}</env-var>
+    <env-var>jobTracker=yarnRM</env-var>
+    <env-var>security_enabled=False</env-var>
+    <env-var>nameNode=hdfs://nameservice1</env-var>
+    <env-var>run_script_path=${run_script_path}</env-var>
+    <env-var>job_prop_path=${job_prop_path}</env-var>
+    <env-var>oozie.use.system.libpath=True</env-var>
+    <env-var>oozie.wf.application.path=hdfs://nameservice1/user/eklavya.k/RuleTest</env-var>
+    <env-var>wf_application_path=hdfs://nameservice1/user/eklavya.k/RuleTest</env-var>
+    <file>${run_script_path}#${run_script_path}</file>
+    <capture-output/>
+
+</shell>
+<ok to="shell-69d1"/>
+<error to="Kill"/>
+</action>
+<action name="shell-69d1">
+<shell xmlns="uri:oozie:shell-action:0.1">
+    <job-tracker>${jobTracker}</job-tracker>
+    <name-node>${nameNode}</name-node>
+    <exec>snappy.sh</exec>
+    <env-var>file=${output_path}</env-var>
+    <env-var>aduser=${ad_user}</env-var>
+    <env-var>datasource=${datasource}</env-var>
+    <file>${snappy_script_path}#${snappy_script_path}</file>
+    <capture-output/>
+</shell>
+<ok to="End"/>
+<error to="Kill"/>
+</action>
+<end name="End"/>
+        </workflow-app>

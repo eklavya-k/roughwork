@@ -1,0 +1,96 @@
+{
+	"type": "TestEdge",
+	"properties": {
+	  "general": [
+	    {
+		 "field_type": "TEXT",
+		 "default": "Heya",
+		 "editable": true,
+		 "required": false,
+		 "category": "general",
+		 "unique": false,
+		 "advanced": false,
+		 "appKillNeeded": true,
+		 "hideOnUI": false,
+		 "name": "echo_term"
+	    }
+	  ],
+	  "scheduler": [
+	    {
+		 "field_type": "DATE",
+		 "editable": true,
+		 "required": true,
+		 "category": "scheduler",
+		 "unique": false,
+		 "advanced": false,
+		 "appKillNeeded": true,
+		 "hideOnUI": false,
+		 "default": "",
+		 "name": "start_date"
+	    },
+	    {
+		 "field_type": "TIME",
+		 "editable": true,
+		 "required": true,
+		 "category": "scheduler",
+		 "unique": false,
+		 "advanced": false,
+		 "appKillNeeded": true,
+		 "hideOnUI": false,
+		 "default": "",
+		 "name": "start_time"
+	    },
+	    {
+		 "field_type": "DATE",
+		 "editable": true,
+		 "required": true,
+		 "category": "scheduler",
+		 "unique": false,
+		 "advanced": false,
+		 "appKillNeeded": true,
+		 "hideOnUI": false,
+		 "default": "",
+		 "name": "end_date"
+	    },
+	    {
+		 "field_type": "TIME",
+		 "editable": true,
+		 "required": true,
+		 "category": "scheduler",
+		 "unique": false,
+		 "advanced": false,
+		 "appKillNeeded": true,
+		 "hideOnUI": false,
+		 "default": "",
+		 "name": "end_time"
+	    }
+	  ],
+	  "resource": [
+	    {
+		 "field_options": [
+		   "adc-data-hadoop-test",
+		   "adc-data-sparkgpu",
+		   "adc-data-hbase",
+		   "dpgcp-use1d-purple-hadoop",
+		   "adc-data-hadoop",
+		   "dpgcp-usw1b-hadoop-staging",
+		   "adc-crawler-hbase",
+		   "dpgcp-use1d-purple-hbase",
+		   "adc-auto-opt-hadoop"
+		 ],
+		 "isMultiple": false,
+		 "field_type": "LIST",
+		 "default": "adc-auto-opt-hadoop",
+		 "editable": true,
+		 "required": false,
+		 "description": "",
+		 "category": "resource",
+		 "unique": false,
+		 "advanced": true,
+		 "appKillNeeded": true,
+		 "hideOnUI": false,
+		 "name": "cluster"
+	    }
+	  ]
+	}
+   }

@@ -1,0 +1,11 @@
+{
+	"files.watcherExclude": {
+		"**/target": true
+	},
+	"C_Cpp.errorSquiggles": "enabled",
+	"C_Cpp.default.cppStandard": "c++20",
+	"editor.codeActionsOnSave": {
+
+	},
+	"C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-14"
+}

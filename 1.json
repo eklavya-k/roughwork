@@ -1,0 +1,13 @@
+{
+	"containsFilters": [
+		{
+			"fields": [
+				"time_stamp"
+			],
+			"values": [
+				"type9021235"
+			],
+			"key": "type_tag_prefix"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+Field      |Type        |Null|Key|Default|Extra         |
+-----------+------------+----+---+-------+--------------+
+id         |int(11)     |NO  |PRI|       |auto_increment|
+artifact_id|varchar(255)|NO  |UNI|       |              |
+version    |varchar(64) |NO  |   |       |              |
+path       |varchar(512)|NO  |   |       |              |
+full_name  |varchar(255)|YES |   |       |              |
+category   |varchar(64) |YES |MUL|       |              |
+cluster    |varchar(100)|YES |MUL|       |              |
+status     |tinyint(1)  |YES |   |1      |              |

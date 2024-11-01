@@ -1,0 +1,26 @@
+{
+  "name": "scala",
+  "argv": [
+    "/opt/homebrew/Cellar/scala/3.5.0/libexec/bin/scala-cli.jar",
+    "--cli-default-scala-version",
+    "3.5.0",
+    "--repository",
+    "file:///opt/homebrew/Cellar/scala/3.5.0/libexec/maven2",
+    "--prog-name",
+    "scala",
+    "bsp",
+    "--json-options",
+    "/Users/eklavyakumar/Documents/roughwork/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/Users/eklavyakumar/Documents/roughwork/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/Users/eklavyakumar/Documents/roughwork/.scala-build/ide-envs.json",
+    "/Users/eklavyakumar/Documents/roughwork"
+  ],
+  "version": "1.4.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

@@ -1,0 +1,12 @@
+to configure c++20 version
+
+cd ~
+brew install gcc
+go to /opt/homebrew/Cellar/gcc/ check the version of the g++, currently it is g++-14
+in settings search code-runner.executormap, go to json file, in cpp member name replace g++ $fileName with g++-14 -std=c++20 $fileName
+
+to cofigure intellisense for error squiggles
+
+shift + command + p
+type Select IntelliSense Configuration in typebox
+select the compiler you want, select the one which contains g++-14
