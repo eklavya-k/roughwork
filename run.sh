@@ -1,23 +1,35 @@
 #!/bin/bash
+
+LOG4J_PATH=hdfs://nameservice1/prod_code/Data/master/config/log4j.properties
+
+rm -rf setVarsFlow.py
+hadoop dfs -copyToLocal /prod_code/Rule-Manager/master/scripts/setVarsFlow.py .
+eval "$(curl https://flux.internal.reports.mn/GetEdgeConfigsV2\?id=$1 | python setVarsFlow.py)"
+
 printenv
 
-DATA_EXECUTOR_CLASSPATH=/etc/hive/conf:spark-streaming-kafka-0-10_2.11-2.4.0.jar:kafka-clients-2.5.0.jar:metrics.properties:etl-gson-2.2.5.jar:guava-16.0.1.jar:spark-sql-patch-3.0.jar:spark-sql-kafka-0-10_2.11-2.4.0.jar:hbase-site.xml
-DATA_DRIVER_CLASSPATH=spark-streaming-kafka-0-10_2.11-2.4.0.jar:kafka-clients-2.5.0.jar:metrics.properties:etl-gson-2.2.5.jar:guava-16.0.1.jar:hbase-common-2.1.0-cdh6.3.1.jar:hbase-hadoop2-compat-2.1.0-cdh6.3.1.jar:hbase-protocol-shaded-2.1.0-cdh6.3.1.jar:hbase-hadoop-compat-2.1.0-cdh6.3.1.jar:hbase-metrics-api-2.1.0-cdh6.3.1.jar:hamcrest-core-1.3.jar:hbase-shaded-protobuf-2.2.1.jar:hbase-protocol-2.1.0-cdh6.3.1.jar:hbase-shaded-netty-2.2.1.jar:hbase-metrics-2.1.0-cdh6.3.1.jar:joni-2.1.11.jar:error_prone_annotations-2.3.3.jar:junit-4.12.jar:hbase-client-2.1.0-cdh6.3.1.jar:jcodings-1.0.18.jar:hbase-shaded-miscellaneous-2.2.1.jar:spark-sql-patch-3.0.jar:spark-sql-kafka-0-10_2.11-2.4.0.jar:hbase-site.xml
 
 HADOOP_USER_NAME=${user_name} spark-submit \
---name ${app_name}  \
---driver-memory 16G \
---executor-memory 16g  \
---executor-cores 1 \
---conf spark.driver.memoryOverhead=3g \
---conf spark.executor.memoryOverhead=3g \
---master yarn-cluster --deploy-mode cluster  \
---queue ${queue} \
---jars ${rule_service_jar},${extra_jars} \
---conf spark.executor.memoryOverhead=2g \
---conf spark.driver.extraClassPath=$DATA_DRIVER_CLASSPATH \
---conf spark.executor.extraClassPath=$DATA_EXECUTOR_CLASSPATH \
---conf spark.kryoserializer.buffer.max=512m \
-${extra_conf} \
---class net.media.spark.context.${context_class} \
-${spark_processing_jar} -f ${job_prop_path} -data_partition ts=0001010100
+	--name ${app_name} \
+	--master yarn \
+	--deploy-mode cluster  \
+	--queue ${queue} \
+	--driver-memory ${driver_memory} \
+	--executor-memory ${executor_memory} \
+	--executor-cores ${executor_cores} \
+	--conf "spark.driver.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC" \
+	--conf "spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC" \
+	--conf spark.sql.log.entry.retain.time.ms=${log_entry_retain_time} \
+	--conf spark.dynamicAllocation.enabled=true \
+	--conf spark.shuffle.service.enabled=true \
+	--conf spark.shuffle.reduceLocality.enabled=false \
+	--conf spark.dynamicAllocation.executorIdleTimeout=${executor_idle_timeout}s \
+	--conf spark.dynamicAllocation.maxExecutors=${max_executors}  \
+	--conf spark.dynamicAllocation.minExecutors=${min_executors} \
+	--conf spark.executor.memoryOverhead=${yarn_executor_memory_overhead} \
+	--jars ${rule_service_jar},${extra_jars} \
+	--conf spark.driver.extraClassPath=$DATA_DRIVER_CLASSPATH:hbase-site.xml \
+	--conf spark.executor.extraClassPath=$DATA_EXECUTOR_CLASSPATH:hbase-site.xml ${extra_conf} \
+  --conf spark.yarn.submit.waitAppCompletion=false \
+	--files $METRICS_PATH,$HBASE_PATH,$LOG4J_PATH \
+	--class net.media.spark.context.StreamContext ${spark_processing_jar} -e ${edge_id} -db jdbc:mysql://c8-auto-flux-db.srv.media.net:6600/flux -u flux_web -p fpibcmdu49

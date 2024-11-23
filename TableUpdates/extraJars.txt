@@ -1,0 +1,10 @@
+call ADD_FLOW_EXTRA_JARS(
+	@ingestion_version_id := 1,
+	@artifact_id := 'spark-sql-patch-4.0.jar',
+	@version := '4.0',
+	@path := 'hdfs://nameservice1/prod_code/Data/master/spark-sql-patch/jars/spark-sql-patch-4.0.jar',
+	@full_name := 'spark-sql-patch-4.0.jar',
+	@status := 1,
+	@description := 'default cluster jar for spark-sql-patch',
+	@user_name := 'eklavya.k'
+);

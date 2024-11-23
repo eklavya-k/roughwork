@@ -1,0 +1,3300 @@
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'Database',
+	@version := '2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/Database-2.0.jar',
+	@full_name := 'Database-2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for Database',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'HdrHistogram',
+	@version := '2.1.12',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/HdrHistogram-2.1.12.jar',
+	@full_name := 'HdrHistogram-2.1.12.jar',
+	@status := 1,
+	@description := 'new cluster jar for HdrHistogram',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'HikariCP',
+	@version := '2.5.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/HikariCP-2.5.1.jar',
+	@full_name := 'HikariCP-2.5.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for HikariCP',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'HikariCP-java7',
+	@version := '2.4.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/HikariCP-java7-2.4.9.jar',
+	@full_name := 'HikariCP-java7-2.4.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for HikariCP-java7',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'JedisWrapper',
+	@version := '1.1.8',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/JedisWrapper-1.1.8.jar',
+	@full_name := 'JedisWrapper-1.1.8.jar',
+	@status := 1,
+	@description := 'new cluster jar for JedisWrapper',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'LatencyUtils',
+	@version := '2.0.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/LatencyUtils-2.0.3.jar',
+	@full_name := 'LatencyUtils-2.0.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for LatencyUtils',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'MediaUrl',
+	@version := '2.0.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/MediaUrl-2.0.3.jar',
+	@full_name := 'MediaUrl-2.0.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for MediaUrl',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'MediaUrlWrapper',
+	@version := '0.2.11',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/MediaUrlWrapper-0.2.11.jar',
+	@full_name := 'MediaUrlWrapper-0.2.11.jar',
+	@status := 1,
+	@description := 'new cluster jar for MediaUrlWrapper',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'RPMUtils',
+	@version := '1.0.6',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/RPMUtils-1.0.6.jar',
+	@full_name := 'RPMUtils-1.0.6.jar',
+	@status := 1,
+	@description := 'new cluster jar for RPMUtils',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'RpmPredictorCommons',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/RpmPredictorCommons-1.0.1.jar',
+	@full_name := 'RpmPredictorCommons-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for RpmPredictorCommons',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'ST4',
+	@version := '4.0.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/ST4-4.0.4.jar',
+	@full_name := 'ST4-4.0.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for ST4',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'UserAgentApp',
+	@version := '1.0.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/UserAgentApp-1.0.0.jar',
+	@full_name := 'UserAgentApp-1.0.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for UserAgentApp',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'UserAgentDetection',
+	@version := '2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/UserAgentDetection-2.0.jar',
+	@full_name := 'UserAgentDetection-2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for UserAgentDetection',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'accessors-smart',
+	@version := '2.4.7',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/accessors-smart-2.4.7.jar',
+	@full_name := 'accessors-smart-2.4.7.jar',
+	@status := 1,
+	@description := 'new cluster jar for accessors-smart',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'activation',
+	@version := '1.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/activation-1.1.1.jar',
+	@full_name := 'activation-1.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for activation',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'aerospike-client',
+	@version := '5.0.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/aerospike-client-5.0.0.jar',
+	@full_name := 'aerospike-client-5.0.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for aerospike-client',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'ant',
+	@version := '1.9.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/ant-1.9.1.jar',
+	@full_name := 'ant-1.9.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for ant',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'ant-launcher',
+	@version := '1.9.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/ant-launcher-1.9.1.jar',
+	@full_name := 'ant-launcher-1.9.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for ant-launcher',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'antlr-runtime',
+	@version := '3.5.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/antlr-runtime-3.5.2.jar',
+	@full_name := 'antlr-runtime-3.5.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for antlr-runtime',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'apache-log4j-extras',
+	@version := '1.2.17',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/apache-log4j-extras-1.2.17.jar',
+	@full_name := 'apache-log4j-extras-1.2.17.jar',
+	@status := 1,
+	@description := 'new cluster jar for apache-log4j-extras',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'apacheds-i18n',
+	@version := '2.0.0-M15',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/apacheds-i18n-2.0.0-M15.jar',
+	@full_name := 'apacheds-i18n-2.0.0-M15.jar',
+	@status := 1,
+	@description := 'new cluster jar for apacheds-i18n',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'apacheds-kerberos-codec',
+	@version := '2.0.0-M15',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/apacheds-kerberos-codec-2.0.0-M15.jar',
+	@full_name := 'apacheds-kerberos-codec-2.0.0-M15.jar',
+	@status := 1,
+	@description := 'new cluster jar for apacheds-kerberos-codec',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'api-asn1-api',
+	@version := '1.0.0-M20',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/api-asn1-api-1.0.0-M20.jar',
+	@full_name := 'api-asn1-api-1.0.0-M20.jar',
+	@status := 1,
+	@description := 'new cluster jar for api-asn1-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'api-util',
+	@version := '1.0.0-M20',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/api-util-1.0.0-M20.jar',
+	@full_name := 'api-util-1.0.0-M20.jar',
+	@status := 1,
+	@description := 'new cluster jar for api-util',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'asm',
+	@version := '9.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/asm-9.1.jar',
+	@full_name := 'asm-9.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for asm',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'assertj-core',
+	@version := '1.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/assertj-core-1.5.0.jar',
+	@full_name := 'assertj-core-1.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for assertj-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'audience-annotations-0.13.0',
+	@version := '0.13.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/audience-annotations-0.13.0.jar',
+	@full_name := 'audience-annotations-0.13.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for audience-annotations-0.13.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'audience-annotations-0.5.0',
+	@version := '0.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/audience-annotations-0.5.0.jar',
+	@full_name := 'audience-annotations-0.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for audience-annotations-0.5.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'avro',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/avro-1.11.2.jar',
+	@full_name := 'avro-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for avro',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'avro-ipc',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/avro-ipc-1.11.2.jar',
+	@full_name := 'avro-ipc-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for avro-ipc',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'avro-mapred',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/avro-mapred-1.11.2.jar',
+	@full_name := 'avro-mapred-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for avro-mapred',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'bonecp',
+	@version := '0.8.0.RELEASE',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/bonecp-0.8.0.RELEASE.jar',
+	@full_name := 'bonecp-0.8.0.RELEASE.jar',
+	@status := 1,
+	@description := 'new cluster jar for bonecp',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'caffeine',
+	@version := '2.9.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/caffeine-2.9.3.jar',
+	@full_name := 'caffeine-2.9.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for caffeine',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'catch-exception',
+	@version := '1.2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/catch-exception-1.2.0.jar',
+	@full_name := 'catch-exception-1.2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for catch-exception',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'checker-qual',
+	@version := '3.19.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/checker-qual-3.19.0.jar',
+	@full_name := 'checker-qual-3.19.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for checker-qual',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'common-config-2.0.0',
+	@version := '2.0.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/common-config-2.0.0.jar',
+	@full_name := 'common-config-2.0.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for common-config-2.0.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'common-config-2.1.1',
+	@version := '2.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/common-config-2.1.1.jar',
+	@full_name := 'common-config-2.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for common-config-2.1.1',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'common-util',
+	@version := '2.1.29',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/common-util-2.1.29.jar',
+	@full_name := 'common-util-2.1.29.jar',
+	@status := 1,
+	@description := 'new cluster jar for common-util',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-beanutils',
+	@version := '1.9.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-beanutils-1.9.4.jar',
+	@full_name := 'commons-beanutils-1.9.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-beanutils',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-cli',
+	@version := '1.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-cli-1.2.jar',
+	@full_name := 'commons-cli-1.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-cli',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-codec-1.10',
+	@version := '1.10',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-codec-1.10.jar',
+	@full_name := 'commons-codec-1.10.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-codec-1.10',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-codec-1.16.0',
+	@version := '1.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-codec-1.16.0.jar',
+	@full_name := 'commons-codec-1.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-codec-1.16.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-collections',
+	@version := '3.2.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-collections-3.2.2.jar',
+	@full_name := 'commons-collections-3.2.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-collections',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-compress',
+	@version := '1.23.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-compress-1.23.0.jar',
+	@full_name := 'commons-compress-1.23.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-compress',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-configuration2',
+	@version := '2.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-configuration2-2.1.1.jar',
+	@full_name := 'commons-configuration2-2.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-configuration2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-crypto',
+	@version := '1.1.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-crypto-1.1.0.jar',
+	@full_name := 'commons-crypto-1.1.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-crypto',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-dbcp',
+	@version := '1.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-dbcp-1.4.jar',
+	@full_name := 'commons-dbcp-1.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-dbcp',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-httpclient',
+	@version := '3.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-httpclient-3.0.1.jar',
+	@full_name := 'commons-httpclient-3.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-httpclient',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-io',
+	@version := '2.13.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-io-2.13.0.jar',
+	@full_name := 'commons-io-2.13.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-io',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-lang',
+	@version := '2.6',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-lang-2.6.jar',
+	@full_name := 'commons-lang-2.6.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-lang',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-lang3',
+	@version := '3.12.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-lang3-3.12.0.jar',
+	@full_name := 'commons-lang3-3.12.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-lang3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-logging-1.1.3',
+	@version := '1.1.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-logging-1.1.3.jar',
+	@full_name := 'commons-logging-1.1.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-logging-1.1.3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-logging-1.2',
+	@version := '1.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-logging-1.2.jar',
+	@full_name := 'commons-logging-1.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-logging-1.2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-math3',
+	@version := '3.6.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-math3-3.6.1.jar',
+	@full_name := 'commons-math3-3.6.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-math3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-net',
+	@version := '3.6',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-net-3.6.jar',
+	@full_name := 'commons-net-3.6.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-net',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-pool',
+	@version := '1.5.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-pool-1.5.4.jar',
+	@full_name := 'commons-pool-1.5.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-pool',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-pool2-2.11.1',
+	@version := '2.11.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-pool2-2.11.1.jar',
+	@full_name := 'commons-pool2-2.11.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-pool2-2.11.1',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-pool2-2.4.2',
+	@version := '2.4.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-pool2-2.4.2.jar',
+	@full_name := 'commons-pool2-2.4.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-pool2-2.4.2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'commons-text',
+	@version := '1.10.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/commons-text-1.10.0.jar',
+	@full_name := 'commons-text-1.10.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for commons-text',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'curator-client',
+	@version := '4.2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/curator-client-4.2.0.jar',
+	@full_name := 'curator-client-4.2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for curator-client',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'curator-framework',
+	@version := '2.13.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/curator-framework-2.13.0.jar',
+	@full_name := 'curator-framework-2.13.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for curator-framework',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'curator-recipes',
+	@version := '2.13.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/curator-recipes-2.13.0.jar',
+	@full_name := 'curator-recipes-2.13.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for curator-recipes',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'datanucleus-api-jdo',
+	@version := '4.2.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/datanucleus-api-jdo-4.2.4.jar',
+	@full_name := 'datanucleus-api-jdo-4.2.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for datanucleus-api-jdo',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'datanucleus-core',
+	@version := '4.1.17',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/datanucleus-core-4.1.17.jar',
+	@full_name := 'datanucleus-core-4.1.17.jar',
+	@status := 1,
+	@description := 'new cluster jar for datanucleus-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'datanucleus-rdbms',
+	@version := '4.1.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/datanucleus-rdbms-4.1.19.jar',
+	@full_name := 'datanucleus-rdbms-4.1.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for datanucleus-rdbms',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'derby',
+	@version := '10.14.2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/derby-10.14.2.0.jar',
+	@full_name := 'derby-10.14.2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for derby',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'deviceapi',
+	@version := '2.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/deviceapi-2.1.1.jar',
+	@full_name := 'deviceapi-2.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for deviceapi',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'deviceatlas-common',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/deviceatlas-common-1.1.jar',
+	@full_name := 'deviceatlas-common-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for deviceatlas-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'dnsjava',
+	@version := '2.1.7',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/dnsjava-2.1.7.jar',
+	@full_name := 'dnsjava-2.1.7.jar',
+	@status := 1,
+	@description := 'new cluster jar for dnsjava',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'dropwizard-metrics-hadoop-metrics2-reporter',
+	@version := '0.1.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar',
+	@full_name := 'dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for dropwizard-metrics-hadoop-metrics2-reporter',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'error_prone_annotations',
+	@version := '2.10.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/error_prone_annotations-2.10.0.jar',
+	@full_name := 'error_prone_annotations-2.10.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for error_prone_annotations',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'etl-gson',
+	@version := '2.2.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/etl-gson-2.2.5.jar',
+	@full_name := 'etl-gson-2.2.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for etl-gson',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'flux-flock-utils',
+	@version := '1.6',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/flux-flock-utils-1.6.jar',
+	@full_name := 'flux-flock-utils-1.6.jar',
+	@status := 1,
+	@description := 'new cluster jar for flux-flock-utils',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'gcs-connector-hadoop2',
+	@version := '2.1.3-shaded',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/gcs-connector-hadoop2-2.1.3-shaded.jar',
+	@full_name := 'gcs-connector-hadoop2-2.1.3-shaded.jar',
+	@status := 1,
+	@description := 'new cluster jar for gcs-connector-hadoop2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'gnu-crypto',
+	@version := '2.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/gnu-crypto-2.0.1.jar',
+	@full_name := 'gnu-crypto-2.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for gnu-crypto',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'groovy-all',
+	@version := '2.1.6',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/groovy-all-2.1.6.jar',
+	@full_name := 'groovy-all-2.1.6.jar',
+	@status := 1,
+	@description := 'new cluster jar for groovy-all',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'gson-2.2.4',
+	@version := '2.2.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/gson-2.2.4.jar',
+	@full_name := 'gson-2.2.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for gson-2.2.4',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'gson-2.8.2',
+	@version := '2.8.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/gson-2.8.2.jar',
+	@full_name := 'gson-2.8.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for gson-2.8.2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'gson-2.8.9',
+	@version := '2.8.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/gson-2.8.9.jar',
+	@full_name := 'gson-2.8.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for gson-2.8.9',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'guava',
+	@version := '16.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/guava-16.0.1.jar',
+	@full_name := 'guava-16.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for guava',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-annotations',
+	@version := '3.3.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-annotations-3.3.4.jar',
+	@full_name := 'hadoop-annotations-3.3.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-annotations',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-auth-2.10.2',
+	@version := '2.10.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-auth-2.10.2.jar',
+	@full_name := 'hadoop-auth-2.10.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-auth-2.10.2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-auth-3.3.4',
+	@version := '3.3.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-auth-3.3.4.jar',
+	@full_name := 'hadoop-auth-3.3.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-auth-3.3.4',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-client-api',
+	@version := '3.3.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-client-api-3.3.4.jar',
+	@full_name := 'hadoop-client-api-3.3.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-client-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-client-runtime',
+	@version := '3.3.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-client-runtime-3.3.4.jar',
+	@full_name := 'hadoop-client-runtime-3.3.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-client-runtime',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-common',
+	@version := '3.3.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-common-3.3.4.jar',
+	@full_name := 'hadoop-common-3.3.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-shaded-guava',
+	@version := '1.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-shaded-guava-1.1.1.jar',
+	@full_name := 'hadoop-shaded-guava-1.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-shaded-guava',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hadoop-shaded-protobuf_3_7',
+	@version := '1.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hadoop-shaded-protobuf_3_7-1.1.1.jar',
+	@full_name := 'hadoop-shaded-protobuf_3_7-1.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for hadoop-shaded-protobuf_3_7',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hamcrest-all',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hamcrest-all-1.1.jar',
+	@full_name := 'hamcrest-all-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for hamcrest-all',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hamcrest-core',
+	@version := '1.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hamcrest-core-1.3.jar',
+	@full_name := 'hamcrest-core-1.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hamcrest-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hamcrest-library',
+	@version := '1.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hamcrest-library-1.3.jar',
+	@full_name := 'hamcrest-library-1.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hamcrest-library',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-client',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-client-2.5.3.jar',
+	@full_name := 'hbase-client-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-client',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-common',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-common-2.5.3.jar',
+	@full_name := 'hbase-common-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-hadoop-compat',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-hadoop-compat-2.5.3.jar',
+	@full_name := 'hbase-hadoop-compat-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-hadoop-compat',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-hadoop2-compat',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-hadoop2-compat-2.5.3.jar',
+	@full_name := 'hbase-hadoop2-compat-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-hadoop2-compat',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-logging',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-logging-2.5.3.jar',
+	@full_name := 'hbase-logging-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-logging',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-metrics',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-metrics-2.5.3.jar',
+	@full_name := 'hbase-metrics-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-metrics',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-metrics-api',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-metrics-api-2.5.3.jar',
+	@full_name := 'hbase-metrics-api-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-metrics-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-protocol',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-protocol-2.5.3.jar',
+	@full_name := 'hbase-protocol-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-protocol',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-protocol-shaded',
+	@version := '2.5.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-protocol-shaded-2.5.3.jar',
+	@full_name := 'hbase-protocol-shaded-2.5.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-protocol-shaded',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-shaded-gson',
+	@version := '4.1.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-shaded-gson-4.1.4.jar',
+	@full_name := 'hbase-shaded-gson-4.1.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-shaded-gson',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-shaded-miscellaneous',
+	@version := '4.1.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-shaded-miscellaneous-4.1.4.jar',
+	@full_name := 'hbase-shaded-miscellaneous-4.1.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-shaded-miscellaneous',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-shaded-netty',
+	@version := '4.1.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-shaded-netty-4.1.4.jar',
+	@full_name := 'hbase-shaded-netty-4.1.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-shaded-netty',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-shaded-protobuf',
+	@version := '4.1.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-shaded-protobuf-4.1.4.jar',
+	@full_name := 'hbase-shaded-protobuf-4.1.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-shaded-protobuf',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hbase-unsafe',
+	@version := '4.1.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hbase-unsafe-4.1.4.jar',
+	@full_name := 'hbase-unsafe-4.1.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for hbase-unsafe',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-ant',
+	@version := '0.13.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-ant-0.13.0.jar',
+	@full_name := 'hive-ant-0.13.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-ant',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-common',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-common-2.3.9.jar',
+	@full_name := 'hive-common-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-exec',
+	@version := '2.3.9-core',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-exec-2.3.9-core.jar',
+	@full_name := 'hive-exec-2.3.9-core.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-exec',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-llap-client',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-llap-client-2.3.9.jar',
+	@full_name := 'hive-llap-client-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-llap-client',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-llap-common',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-llap-common-2.3.9.jar',
+	@full_name := 'hive-llap-common-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-llap-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-metastore',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-metastore-2.3.9.jar',
+	@full_name := 'hive-metastore-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-metastore',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-serde',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-serde-2.3.9.jar',
+	@full_name := 'hive-serde-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-serde',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-shims-0.23',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-shims-0.23-2.3.9.jar',
+	@full_name := 'hive-shims-0.23-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-shims-0.23',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-shims',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-shims-2.3.9.jar',
+	@full_name := 'hive-shims-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-shims',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-shims-common',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-shims-common-2.3.9.jar',
+	@full_name := 'hive-shims-common-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-shims-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hive-shims-scheduler',
+	@version := '2.3.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hive-shims-scheduler-2.3.9.jar',
+	@full_name := 'hive-shims-scheduler-2.3.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for hive-shims-scheduler',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'hiveudf',
+	@version := '0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/hiveudf-0.1.jar',
+	@full_name := 'hiveudf-0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for hiveudf',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'httpclient-4.5.13',
+	@version := '4.5.13',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/httpclient-4.5.13.jar',
+	@full_name := 'httpclient-4.5.13.jar',
+	@status := 1,
+	@description := 'new cluster jar for httpclient-4.5.13',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'httpclient-4.5.14',
+	@version := '4.5.14',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/httpclient-4.5.14.jar',
+	@full_name := 'httpclient-4.5.14.jar',
+	@status := 1,
+	@description := 'new cluster jar for httpclient-4.5.14',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'httpcore-4.5.13',
+	@version := '4.4.13',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/httpcore-4.4.13.jar',
+	@full_name := 'httpcore-4.4.13.jar',
+	@status := 1,
+	@description := 'new cluster jar for httpcore-4.5.13',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'httpcore-4.4.16',
+	@version := '4.4.16',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/httpcore-4.4.16.jar',
+	@full_name := 'httpcore-4.4.16.jar',
+	@status := 1,
+	@description := 'new cluster jar for httpcore-4.4.16',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'ivy',
+	@version := '2.5.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/ivy-2.5.1.jar',
+	@full_name := 'ivy-2.5.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for ivy',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-annotations-2.10.0',
+	@version := '2.10.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-annotations-2.10.0.jar',
+	@full_name := 'jackson-annotations-2.10.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-annotations-2.10.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-annotations-2.12.3',
+	@version := '2.12.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-annotations-2.12.3.jar',
+	@full_name := 'jackson-annotations-2.12.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-annotations-2.12.3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-annotations-2.15.2',
+	@version := '2.15.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-annotations-2.15.2.jar',
+	@full_name := 'jackson-annotations-2.15.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-annotations-2.15.2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-core-2.10.0',
+	@version := '2.10.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-core-2.10.0.jar',
+	@full_name := 'jackson-core-2.10.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-core-2.10.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-core-2.12.3',
+	@version := '2.12.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-core-2.12.3.jar',
+	@full_name := 'jackson-core-2.12.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-core-2.12.3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-core-2.13.5',
+	@version := '2.13.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-core-2.13.5.jar',
+	@full_name := 'jackson-core-2.13.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-core-2.13.5',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-core-asl',
+	@version := '1.9.13',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-core-asl-1.9.13.jar',
+	@full_name := 'jackson-core-asl-1.9.13.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-core-asl',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-databind-2.12.3',
+	@version := '2.12.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-databind-2.12.3.jar',
+	@full_name := 'jackson-databind-2.12.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-databind-2.12.3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-databind-2.15.2',
+	@version := '2.15.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-databind-2.15.2.jar',
+	@full_name := 'jackson-databind-2.15.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-databind-2.15.2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-jaxrs',
+	@version := '1.9.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-jaxrs-1.9.2.jar',
+	@full_name := 'jackson-jaxrs-1.9.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-jaxrs',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-mapper-asl',
+	@version := '1.9.13',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-mapper-asl-1.9.13.jar',
+	@full_name := 'jackson-mapper-asl-1.9.13.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-mapper-asl',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jackson-xc',
+	@version := '1.9.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jackson-xc-1.9.2.jar',
+	@full_name := 'jackson-xc-1.9.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for jackson-xc',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jakarta.activation-api',
+	@version := '1.2.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jakarta.activation-api-1.2.1.jar',
+	@full_name := 'jakarta.activation-api-1.2.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jakarta.activation-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'javax.activation-api',
+	@version := '1.2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/javax.activation-api-1.2.0.jar',
+	@full_name := 'javax.activation-api-1.2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for javax.activation-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'javax.jdo',
+	@version := '3.2.0-m3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/javax.jdo-3.2.0-m3.jar',
+	@full_name := 'javax.jdo-3.2.0-m3.jar',
+	@status := 1,
+	@description := 'new cluster jar for javax.jdo',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'javax.servlet-api',
+	@version := '3.1.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/javax.servlet-api-3.1.0.jar',
+	@full_name := 'javax.servlet-api-3.1.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for javax.servlet-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'javolution',
+	@version := '5.5.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/javolution-5.5.1.jar',
+	@full_name := 'javolution-5.5.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for javolution',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jaxb-api',
+	@version := '2.2.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jaxb-api-2.2.2.jar',
+	@full_name := 'jaxb-api-2.2.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for jaxb-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jaxb-impl',
+	@version := '2.2.3-1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jaxb-impl-2.2.3-1.jar',
+	@full_name := 'jaxb-impl-2.2.3-1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jaxb-impl',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jbcrypt',
+	@version := '0.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jbcrypt-0.4.jar',
+	@full_name := 'jbcrypt-0.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for jbcrypt',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jcip-annotations',
+	@version := '1.0-1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jcip-annotations-1.0-1.jar',
+	@full_name := 'jcip-annotations-1.0-1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jcip-annotations',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jcodings',
+	@version := '1.0.55',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jcodings-1.0.55.jar',
+	@full_name := 'jcodings-1.0.55.jar',
+	@status := 1,
+	@description := 'new cluster jar for jcodings',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jdk.tools',
+	@version := '1.8',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jdk.tools-1.8.jar',
+	@full_name := 'jdk.tools-1.8.jar',
+	@status := 1,
+	@description := 'new cluster jar for jdk.tools',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jdo-api',
+	@version := '3.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jdo-api-3.0.1.jar',
+	@full_name := 'jdo-api-3.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jdo-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jedis',
+	@version := '2.8.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jedis-2.8.1.jar',
+	@full_name := 'jedis-2.8.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jedis',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jersey-core',
+	@version := '1.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jersey-core-1.19.jar',
+	@full_name := 'jersey-core-1.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for jersey-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jersey-json',
+	@version := '1.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jersey-json-1.19.jar',
+	@full_name := 'jersey-json-1.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for jersey-json',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jersey-server',
+	@version := '1.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jersey-server-1.19.jar',
+	@full_name := 'jersey-server-1.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for jersey-server',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jersey-servlet',
+	@version := '1.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jersey-servlet-1.19.jar',
+	@full_name := 'jersey-servlet-1.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for jersey-servlet',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jettison',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jettison-1.1.jar',
+	@full_name := 'jettison-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jettison',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-http',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-http-9.4.43.v20210629.jar',
+	@full_name := 'jetty-http-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-http',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-io',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-io-9.4.43.v20210629.jar',
+	@full_name := 'jetty-io-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-io',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-security',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-security-9.4.43.v20210629.jar',
+	@full_name := 'jetty-security-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-security',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-server',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-server-9.4.43.v20210629.jar',
+	@full_name := 'jetty-server-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-server',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-servlet',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-servlet-9.4.43.v20210629.jar',
+	@full_name := 'jetty-servlet-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-servlet',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-util',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-util-9.4.43.v20210629.jar',
+	@full_name := 'jetty-util-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-util',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-util-ajax',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-util-ajax-9.4.43.v20210629.jar',
+	@full_name := 'jetty-util-ajax-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-util-ajax',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-webapp',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-webapp-9.4.43.v20210629.jar',
+	@full_name := 'jetty-webapp-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-webapp',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jetty-xml',
+	@version := '9.4.43.v20210629',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jetty-xml-9.4.43.v20210629.jar',
+	@full_name := 'jetty-xml-9.4.43.v20210629.jar',
+	@status := 1,
+	@description := 'new cluster jar for jetty-xml',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jfxrt',
+	@version := 'jxfrt',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jfxrt.jar',
+	@full_name := 'jfxrt.jar',
+	@status := 1,
+	@description := 'new cluster jar for jfxrt',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jline',
+	@version := '2.12',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jline-2.12.jar',
+	@full_name := 'jline-2.12.jar',
+	@status := 1,
+	@description := 'new cluster jar for jline',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'joda-time',
+	@version := '2.12.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/joda-time-2.12.5.jar',
+	@full_name := 'joda-time-2.12.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for joda-time',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jodd-core',
+	@version := '3.5.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jodd-core-3.5.2.jar',
+	@full_name := 'jodd-core-3.5.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for jodd-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'joni',
+	@version := '2.1.31',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/joni-2.1.31.jar',
+	@full_name := 'joni-2.1.31.jar',
+	@status := 1,
+	@description := 'new cluster jar for joni',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jopt-simple',
+	@version := '4.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jopt-simple-4.9.jar',
+	@full_name := 'jopt-simple-4.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for jopt-simple',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jsch',
+	@version := '0.1.55',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jsch-0.1.55.jar',
+	@full_name := 'jsch-0.1.55.jar',
+	@status := 1,
+	@description := 'new cluster jar for jsch',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'json',
+	@version := '1.8',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/json-1.8.jar',
+	@full_name := 'json-1.8.jar',
+	@status := 1,
+	@description := 'new cluster jar for json',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'json-path',
+	@version := '2.6.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/json-path-2.6.0.jar',
+	@full_name := 'json-path-2.6.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for json-path',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'json-simple',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/json-simple-1.1.jar',
+	@full_name := 'json-simple-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for json-simple',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'json-smart',
+	@version := '2.4.7',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/json-smart-2.4.7.jar',
+	@full_name := 'json-smart-2.4.7.jar',
+	@status := 1,
+	@description := 'new cluster jar for json-smart',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jsoup',
+	@version := '1.8.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jsoup-1.8.3.jar',
+	@full_name := 'jsoup-1.8.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for jsoup',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jsp-api',
+	@version := '2.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jsp-api-2.1.jar',
+	@full_name := 'jsp-api-2.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jsp-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jsr305',
+	@version := '3.0.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jsr305-3.0.0.jar',
+	@full_name := 'jsr305-3.0.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for jsr305',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jsr311-api',
+	@version := '1.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jsr311-api-1.1.1.jar',
+	@full_name := 'jsr311-api-1.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jsr311-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'jta',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/jta-1.1.jar',
+	@full_name := 'jta-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for jta',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'junit',
+	@version := '4.12',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/junit-4.12.jar',
+	@full_name := 'junit-4.12.jar',
+	@status := 1,
+	@description := 'new cluster jar for junit',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kafka-clients',
+	@version := '3.4.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kafka-clients-3.4.1.jar',
+	@full_name := 'kafka-clients-3.4.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kafka-clients',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kafka-graphite-clients',
+	@version := '0.10.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kafka-graphite-clients-0.10.2.jar',
+	@full_name := 'kafka-graphite-clients-0.10.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for kafka-graphite-clients',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kafka-log4j-appender',
+	@version := '0.11.0.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kafka-log4j-appender-0.11.0.0.jar',
+	@full_name := 'kafka-log4j-appender-0.11.0.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for kafka-log4j-appender',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kafka_2.11',
+	@version := '0.10.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kafka_2.11-0.10.0.1.jar',
+	@full_name := 'kafka_2.11-0.10.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kafka_2.11',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-admin',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-admin-1.0.1.jar',
+	@full_name := 'kerb-admin-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-admin',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-client',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-client-1.0.1.jar',
+	@full_name := 'kerb-client-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-client',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-common',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-common-1.0.1.jar',
+	@full_name := 'kerb-common-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-core',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-core-1.0.1.jar',
+	@full_name := 'kerb-core-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-crypto',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-crypto-1.0.1.jar',
+	@full_name := 'kerb-crypto-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-crypto',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-identity',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-identity-1.0.1.jar',
+	@full_name := 'kerb-identity-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-identity',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-server',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-server-1.0.1.jar',
+	@full_name := 'kerb-server-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-server',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-simplekdc',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-simplekdc-1.0.1.jar',
+	@full_name := 'kerb-simplekdc-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-simplekdc',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerb-util',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerb-util-1.0.1.jar',
+	@full_name := 'kerb-util-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerb-util',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerby-asn1',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerby-asn1-1.0.1.jar',
+	@full_name := 'kerby-asn1-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerby-asn1',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerby-config',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerby-config-1.0.1.jar',
+	@full_name := 'kerby-config-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerby-config',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerby-pkix',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerby-pkix-1.0.1.jar',
+	@full_name := 'kerby-pkix-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerby-pkix',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerby-util',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerby-util-1.0.1.jar',
+	@full_name := 'kerby-util-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerby-util',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'kerby-xdr',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/kerby-xdr-1.0.1.jar',
+	@full_name := 'kerby-xdr-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for kerby-xdr',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'libfb303',
+	@version := '0.9.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/libfb303-0.9.3.jar',
+	@full_name := 'libfb303-0.9.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for libfb303',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'libthrift',
+	@version := '0.12.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/libthrift-0.12.0.jar',
+	@full_name := 'libthrift-0.12.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for libthrift',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'livy-api',
+	@version := '0.6.0-incubating',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/livy-api-0.6.0-incubating.jar',
+	@full_name := 'livy-api-0.6.0-incubating.jar',
+	@status := 1,
+	@description := 'new cluster jar for livy-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'livy-client-http',
+	@version := '0.6.0-incubating',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/livy-client-http-0.6.0-incubating.jar',
+	@full_name := 'livy-client-http-0.6.0-incubating.jar',
+	@status := 1,
+	@description := 'new cluster jar for livy-client-http',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'log4j',
+	@version := '1.2.17',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/log4j-1.2.17.jar',
+	@full_name := 'log4j-1.2.17.jar',
+	@status := 1,
+	@description := 'new cluster jar for log4j',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'log4j-api',
+	@version := '2.11.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/log4j-api-2.11.0.jar',
+	@full_name := 'log4j-api-2.11.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for log4j-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'log4j-core',
+	@version := '2.11.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/log4j-core-2.11.0.jar',
+	@full_name := 'log4j-core-2.11.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for log4j-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'luaj-jse',
+	@version := '3.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/luaj-jse-3.0.1.jar',
+	@full_name := 'luaj-jse-3.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for luaj-jse',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'lz4',
+	@version := '1.3.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/lz4-1.3.0.jar',
+	@full_name := 'lz4-1.3.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for lz4',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'lz4-java',
+	@version := '1.8.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/lz4-java-1.8.0.jar',
+	@full_name := 'lz4-java-1.8.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for lz4-java',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'metrics-core-2.2.0',
+	@version := '2.2.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/metrics-core-2.2.0.jar',
+	@full_name := 'metrics-core-2.2.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for metrics-core-2.2.0',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'metrics-core-4.2.19',
+	@version := '4.2.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/metrics-core-4.2.19.jar',
+	@full_name := 'metrics-core-4.2.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for metrics-core-4.2.19',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'metrics-json',
+	@version := '4.2.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/metrics-json-4.2.19.jar',
+	@full_name := 'metrics-json-4.2.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for metrics-json',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'metrics-jvm',
+	@version := '4.2.19',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/metrics-jvm-4.2.19.jar',
+	@full_name := 'metrics-jvm-4.2.19.jar',
+	@status := 1,
+	@description := 'new cluster jar for metrics-jvm',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'micrometer-commons',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/micrometer-commons-1.11.2.jar',
+	@full_name := 'micrometer-commons-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for micrometer-commons',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'micrometer-core',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/micrometer-core-1.11.2.jar',
+	@full_name := 'micrometer-core-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for micrometer-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'micrometer-observation',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/micrometer-observation-1.11.2.jar',
+	@full_name := 'micrometer-observation-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for micrometer-observation',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'micrometer-registry-prometheus',
+	@version := '1.11.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/micrometer-registry-prometheus-1.11.2.jar',
+	@full_name := 'micrometer-registry-prometheus-1.11.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for micrometer-registry-prometheus',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'mockito-all',
+	@version := '1.9.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/mockito-all-1.9.5.jar',
+	@full_name := 'mockito-all-1.9.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for mockito-all',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'mockito-core',
+	@version := '1.9.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/mockito-core-1.9.5.jar',
+	@full_name := 'mockito-core-1.9.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for mockito-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'mssql-jdbc',
+	@version := '7.4.1.jre8',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/mssql-jdbc-7.4.1.jre8.jar',
+	@full_name := 'mssql-jdbc-7.4.1.jre8.jar',
+	@status := 1,
+	@description := 'new cluster jar for mssql-jdbc',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'mysql-connector-java',
+	@version := '8.0.17',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/mysql-connector-java-8.0.17.jar',
+	@full_name := 'mysql-connector-java-8.0.17.jar',
+	@status := 1,
+	@description := 'new cluster jar for mysql-connector-java',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'nimbus-jose-jwt-7.9',
+	@version := '7.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/nimbus-jose-jwt-7.9.jar',
+	@full_name := 'nimbus-jose-jwt-7.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for nimbus-jose-jwt-7.9',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'nimbus-jose-jwt-9.8.1',
+	@version := '9.8.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/nimbus-jose-jwt-9.8.1.jar',
+	@full_name := 'nimbus-jose-jwt-9.8.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for nimbus-jose-jwt-9.8.1',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'objenesis',
+	@version := '1.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/objenesis-1.3.jar',
+	@full_name := 'objenesis-1.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for objenesis',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'opencsv',
+	@version := '2.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/opencsv-2.3.jar',
+	@full_name := 'opencsv-2.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for opencsv',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'opentelemetry-api',
+	@version := '1.15.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/opentelemetry-api-1.15.0.jar',
+	@full_name := 'opentelemetry-api-1.15.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for opentelemetry-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'opentelemetry-context',
+	@version := '1.15.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/opentelemetry-context-1.15.0.jar',
+	@full_name := 'opentelemetry-context-1.15.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for opentelemetry-context',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'opentelemetry-semconv',
+	@version := '1.15.0-alpha',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/opentelemetry-semconv-1.15.0-alpha.jar',
+	@full_name := 'opentelemetry-semconv-1.15.0-alpha.jar',
+	@status := 1,
+	@description := 'new cluster jar for opentelemetry-semconv',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'pluto-codec',
+	@version := '1.2.2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/pluto-codec-1.2.2.jar',
+	@full_name := 'pluto-codec-1.2.2.jar',
+	@status := 1,
+	@description := 'new cluster jar for pluto-codec',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'protobuf-java',
+	@version := '2.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/protobuf-java-2.5.0.jar',
+	@full_name := 'protobuf-java-2.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for protobuf-java',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 're2j',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/re2j-1.1.jar',
+	@full_name := 're2j-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for re2j',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'reload4j',
+	@version := '1.2.22',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/reload4j-1.2.22.jar',
+	@full_name := 'reload4j-1.2.22.jar',
+	@status := 1,
+	@description := 'new cluster jar for reload4j',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'scala-library',
+	@version := '2.12.18',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/scala-library-2.12.18.jar',
+	@full_name := 'scala-library-2.12.18.jar',
+	@status := 1,
+	@description := 'new cluster jar for scala-library',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'scala-parser-combinators_2.11',
+	@version := '1.0.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/scala-parser-combinators_2.11-1.0.4.jar',
+	@full_name := 'scala-parser-combinators_2.11-1.0.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for scala-parser-combinators_2.11',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'scala-reflect',
+	@version := '2.12.18',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/scala-reflect-2.12.18.jar',
+	@full_name := 'scala-reflect-2.12.18.jar',
+	@status := 1,
+	@description := 'new cluster jar for scala-reflect',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'scala-xml_2.12',
+	@version := '2.1.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/scala-xml_2.12-2.1.0.jar',
+	@full_name := 'scala-xml_2.12-2.1.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for scala-xml_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'scalactic_2.12',
+	@version := '3.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/scalactic_2.12-3.1.1.jar',
+	@full_name := 'scalactic_2.12-3.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for scalactic_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'scalatest_2.12',
+	@version := '3.1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/scalatest_2.12-3.1.1.jar',
+	@full_name := 'scalatest_2.12-3.1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for scalatest_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'schema',
+	@version := '1.0.14',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/schema-1.0.14.jar',
+	@full_name := 'schema-1.0.14.jar',
+	@status := 1,
+	@description := 'new cluster jar for schema',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'schema-store',
+	@version := '1.0.14',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/schema-store-1.0.14.jar',
+	@full_name := 'schema-store-1.0.14.jar',
+	@status := 1,
+	@description := 'new cluster jar for schema-store',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'simpleclient',
+	@version := '0.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/simpleclient-0.16.0.jar',
+	@full_name := 'simpleclient-0.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for simpleclient',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'simpleclient_common',
+	@version := '0.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/simpleclient_common-0.16.0.jar',
+	@full_name := 'simpleclient_common-0.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for simpleclient_common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'simpleclient_pushgateway',
+	@version := '0.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/simpleclient_pushgateway-0.16.0.jar',
+	@full_name := 'simpleclient_pushgateway-0.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for simpleclient_pushgateway',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'simpleclient_tracer_common',
+	@version := '0.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/simpleclient_tracer_common-0.16.0.jar',
+	@full_name := 'simpleclient_tracer_common-0.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for simpleclient_tracer_common',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'simpleclient_tracer_otel',
+	@version := '0.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/simpleclient_tracer_otel-0.16.0.jar',
+	@full_name := 'simpleclient_tracer_otel-0.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for simpleclient_tracer_otel',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'simpleclient_tracer_otel_agent',
+	@version := '0.16.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/simpleclient_tracer_otel_agent-0.16.0.jar',
+	@full_name := 'simpleclient_tracer_otel_agent-0.16.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for simpleclient_tracer_otel_agent',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'slf4j-api-1.7.30',
+	@version := '1.7.30',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/slf4j-api-1.7.30.jar',
+	@full_name := 'slf4j-api-1.7.30.jar',
+	@status := 1,
+	@description := 'new cluster jar for slf4j-api-1.7.30',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'slf4j-api-1.7.33',
+	@version := '1.7.33',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/slf4j-api-1.7.33.jar',
+	@full_name := 'slf4j-api-1.7.33.jar',
+	@status := 1,
+	@description := 'new cluster jar for slf4j-api-1.7.33',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'slf4j-api-1.7.36',
+	@version := '1.7.36',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/slf4j-api-1.7.36.jar',
+	@full_name := 'slf4j-api-1.7.36.jar',
+	@status := 1,
+	@description := 'new cluster jar for slf4j-api-1.7.36',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'slf4j-log4j12',
+	@version := '1.7.25',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/slf4j-log4j12-1.7.25.jar',
+	@full_name := 'slf4j-log4j12-1.7.25.jar',
+	@status := 1,
+	@description := 'new cluster jar for slf4j-log4j12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'slf4j-reload4j',
+	@version := '1.7.36',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/slf4j-reload4j-1.7.36.jar',
+	@full_name := 'slf4j-reload4j-1.7.36.jar',
+	@status := 1,
+	@description := 'new cluster jar for slf4j-reload4j',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'snakeyaml',
+	@version := '1.10',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/snakeyaml-1.10.jar',
+	@full_name := 'snakeyaml-1.10.jar',
+	@status := 1,
+	@description := 'new cluster jar for snakeyaml',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'snappy-java-1.1.10.3',
+	@version := '1.1.10.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/snappy-java-1.1.10.3.jar',
+	@full_name := 'snappy-java-1.1.10.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for snappy-java-1.1.10.3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'snappy-java-1.1.7.3',
+	@version := '1.1.7.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/snappy-java-1.1.7.3.jar',
+	@full_name := 'snappy-java-1.1.7.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for snappy-java-1.1.7.3',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'snappy-java-1.1.8.4',
+	@version := '1.1.8.4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/snappy-java-1.1.8.4.jar',
+	@full_name := 'snappy-java-1.1.8.4.jar',
+	@status := 1,
+	@description := 'new cluster jar for snappy-java-1.1.8.4',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-aes-etl',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-aes-etl-1.0.1.jar',
+	@full_name := 'spark-aes-etl-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-aes-etl',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-bigquery-with-dependencies_2.12',
+	@version := '0.27.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-bigquery-with-dependencies_2.12-0.27.1.jar',
+	@full_name := 'spark-bigquery-with-dependencies_2.12-0.27.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-bigquery-with-dependencies_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-hive_2.12',
+	@version := '3.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-hive_2.12-3.5.0.jar',
+	@full_name := 'spark-hive_2.12-3.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-hive_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-sql-kafka-0-10_2.12',
+	@version := '3.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-sql-kafka-0-10_2.12-3.5.0.jar',
+	@full_name := 'spark-sql-kafka-0-10_2.12-3.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-sql-kafka-0-10_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-streaming-kafka-0-10_2.12',
+	@version := '3.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-streaming-kafka-0-10_2.12-3.5.0.jar',
+	@full_name := 'spark-streaming-kafka-0-10_2.12-3.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-streaming-kafka-0-10_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-tags_2.12',
+	@version := '3.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-tags_2.12-3.5.0.jar',
+	@full_name := 'spark-tags_2.12-3.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-tags_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-token-provider-kafka-0-10_2.12',
+	@version := '3.5.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/spark-token-provider-kafka-0-10_2.12-3.5.0.jar',
+	@full_name := 'spark-token-provider-kafka-0-10_2.12-3.5.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-token-provider-kafka-0-10_2.12',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'stax-api-1.0-2',
+	@version := '1.0-2',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/stax-api-1.0-2.jar',
+	@full_name := 'stax-api-1.0-2.jar',
+	@status := 1,
+	@description := 'new cluster jar for stax-api-1.0-2',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'stax-api-1.0.1',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/stax-api-1.0.1.jar',
+	@full_name := 'stax-api-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for stax-api-1.0.1',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'stax2-api',
+	@version := '4.2.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/stax2-api-4.2.1.jar',
+	@full_name := 'stax2-api-4.2.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for stax2-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'token-provider',
+	@version := '1.0.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/token-provider-1.0.1.jar',
+	@full_name := 'token-provider-1.0.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for token-provider',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'tomcat-jdbc',
+	@version := '8.0.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/tomcat-jdbc-8.0.5.jar',
+	@full_name := 'tomcat-jdbc-8.0.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for tomcat-jdbc',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'tomcat-juli',
+	@version := '8.0.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/tomcat-juli-8.0.5.jar',
+	@full_name := 'tomcat-juli-8.0.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for tomcat-juli',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'transaction-api',
+	@version := '1.1',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/transaction-api-1.1.jar',
+	@full_name := 'transaction-api-1.1.jar',
+	@status := 1,
+	@description := 'new cluster jar for transaction-api',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'ua-parser',
+	@version := '1.3.2-dependencies',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/ua-parser-1.3.2-dependencies.jar',
+	@full_name := 'ua-parser-1.3.2-dependencies.jar',
+	@status := 1,
+	@description := 'new cluster jar for ua-parser',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'velocity',
+	@version := '1.5',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/velocity-1.5.jar',
+	@full_name := 'velocity-1.5.jar',
+	@status := 1,
+	@description := 'new cluster jar for velocity',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'woodstox-core',
+	@version := '5.3.0',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/woodstox-core-5.3.0.jar',
+	@full_name := 'woodstox-core-5.3.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for woodstox-core',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'xz',
+	@version := '1.9',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/xz-1.9.jar',
+	@full_name := 'xz-1.9.jar',
+	@status := 1,
+	@description := 'new cluster jar for xz',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'zkclient',
+	@version := '0.8',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/zkclient-0.8.jar',
+	@full_name := 'zkclient-0.8.jar',
+	@status := 1,
+	@description := 'new cluster jar for zkclient',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'zookeeper',
+	@version := '3.6.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/zookeeper-3.6.3.jar',
+	@full_name := 'zookeeper-3.6.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for zookeeper',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'zookeeper-jute',
+	@version := '3.6.3',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/zookeeper-jute-3.6.3.jar',
+	@full_name := 'zookeeper-jute-3.6.3.jar',
+	@status := 1,
+	@description := 'new cluster jar for zookeeper-jute',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'zstd-jni',
+	@version := '1.5.5-4',
+	@path := 'hdfs://adc-data-hadoop/user/data_admin/Data_deps/zstd-jni-1.5.5-4.jar',
+	@full_name := 'zstd-jni-1.5.5-4.jar',
+	@status := 1,
+	@description := 'new cluster jar for zstd-jni',
+	@user_name := 'eklavya.k'
+);
+
+
+call ADD_FLOW_DEFAULT_JAR_SETS(
+	@set_id := 1,
+	@artifact_id := 'spark-sql-patch',
+	@version := '3.0',
+	@path := 'hdfs://nameservice1/user/data_admin/hadoop-styx/spark-sql-patch-3.0.jar',
+	@full_name := 'spark-sql-patch-3.0.jar',
+	@status := 1,
+	@description := 'new cluster jar for spark-sql-patch',
+	@user_name := 'eklavya.k'
+);
+

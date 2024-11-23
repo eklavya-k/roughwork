@@ -1,41 +1,30 @@
 #!/bin/bash
 
-LOG4J_PATH=hdfs://nameservice1/prod_code/Data/master/config/log4j.properties
+#setting edge configs (user, memory, cores etc...)
 
-rm -rf setVarsFlow.py
-hadoop dfs -copyToLocal /prod_code/Rule-Manager/master/scripts/setVarsFlow.py .
-eval "$(curl https://flux.internal.reports.mn/GetEdgeConfigs\?id=$1 | python2 setVarsFlow.py)"
+eval edgeConfig=$(curl https://flux.internal.reports.mn/GetEdgeConfigs\?id="${edge_id_arg}")
 
-
-
-export run_conf="--driver-memory ${driver_memory} \
-	--executor-memory ${executor_memory} \
-	--executor-cores ${executor_cores} \
-	--conf spark.sql.log.entry.retain.time.ms=${log_entry_retain_time} \
-	--conf \"spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC\" \
-	--conf \"spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC\" \
-	--conf spark.dynamicAllocation.enabled=true \
-	--conf spark.shuffle.service.enabled=true \
-	--conf spark.shuffle.reduceLocality.enabled=false \
-	--conf spark.dynamicAllocation.executorIdleTimeout=${executor_idle_timeout}s \
-	--conf spark.dynamicAllocation.maxExecutors=${max_executors}  \
-	--conf spark.dynamicAllocation.minExecutors=${min_executors} \
-	--conf spark.executor.memoryOverhead=${yarn_executor_memory_overhead} \
-	--jars ${rule_service_jar},${extra_jars} \
-	--conf spark.driver.extraClassPath=$DATA_DRIVER_CLASSPATH:hbase-site.xml \
-	--conf spark.executor.extraClassPath=$DATA_EXECUTOR_CLASSPATH:hbase-site.xml ${extra_conf} \
-  	--conf spark.yarn.submit.waitAppCompletion=false \
-	--files $METRICS_PATH,$HBASE_PATH,$LOG4J_PATH \
-	--class net.media.spark.context.StreamContext ${spark_processing_jar} -e ${edge_id} -db jdbc:mysql://c8-auto-flux-db.srv.media.net:6600/flux -u flux_web -p fpibcmdu49"
-
-
+for key in $(echo "$edgeConfig" | jq -r 'keys_unsorted[]'); do
+    value=$(echo "$edgeConfig" | jq -r ".$key")
+    export $key="$value"
+done
 
 printenv
 
-
-HADOOP_USER_NAME=${user_name} spark-submit \
-	--name ${app_name} \
-	--master yarn \
-	--deploy-mode cluster  \
-	--queue ${queue} \
-	${run_conf}
+eval HADOOP_USER_NAME=${user_name} spark-submit \
+    --name ${app_name} \
+    --master yarn \
+    --deploy-mode cluster  \
+    --queue ${queue} \
+    --driver-memory ${driver_memory} \
+    --executor-memory ${executor_memory} \
+    --executor-cores ${executor_cores} \
+    --conf "spark.driver.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC" \
+    --conf "spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC" \
+    --conf spark.serializer=org.apache.spark.serializer.KryoSerializer \
+    --conf spark.yarn.dist.files=hdfs://nameservice1/prod_code/Rule-Manager/master/config/hive-site.xml \
+    --jars ${rule_service_jar},${extra_jars} ${spark_conf} \
+    --conf spark.driver.extraClassPath=$DATA_DRIVER_CLASSPATH:hbase-site.xml \
+    --conf spark.executor.extraClassPath=$DATA_EXECUTOR_CLASSPATH:hbase-site.xml ${extra_conf} \
+    --files $METRICS_PATH,$HBASE_PATH,$LOG4J_PATH \
+    --class net.media.spark.context.${context_class} ${spark_processing_jar} ${main_class_args}

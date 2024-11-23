@@ -17,11 +17,47 @@ using namespace std;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void code(int TC){
-	cout << "OKay" << endl;
-	queue<int> q;
-	q.push(1);
-	while(!q.empty()) cout << q.front() << endl, q.pop();
+	
 
 }
 

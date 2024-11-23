@@ -1,3 +1,18 @@
---driver-memory ${driver_memory} --executor-memory ${executor_memory} --executor-cores ${executor_cores} --conf spark.sql.log.entry.retain.time.ms=${log_entry_retain_time} --conf \"spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC\" --conf \"spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC\" --conf spark.dynamicAllocation.enabled=true --conf spark.shuffle.service.enabled=true --conf spark.shuffle.reduceLocality.enabled=false --conf spark.dynamicAllocation.executorIdleTimeout=${executor_idle_timeout}s --conf spark.dynamicAllocation.maxExecutors=${max_executors}  --conf spark.dynamicAllocation.minExecutors=${min_executors} --conf spark.executor.memoryOverhead=${yarn_executor_memory_overhead} --jars ${rule_service_jar},${extra_jars} --conf spark.driver.extraClassPath=$DATA_DRIVER_CLASSPATH:hbase-site.xml --conf spark.executor.extraClassPath=$DATA_EXECUTOR_CLASSPATH:hbase-site.xml ${extra_conf} --conf spark.yarn.submit.waitAppCompletion=false --files $METRICS_PATH,$HBASE_PATH,$LOG4J_PATH --class net.media.spark.context.StreamContext ${spark_processing_jar} -e ${edge_id} -db jdbc:mysql://c8-auto-flux-db.srv.media.net:6600/flux -u flux_web -p fpibcmdu49
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 1,
+	@edge_type := 'StructStreamEdge',
+	@cluster := 1,
+	@description := 'default struct stream edge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
 
---conf 'spark.driver.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC' --conf 'spark.executor.extraJavaOptions=-Dlog4j.configuration=file:log4j.properties -Dlog4j.debug=true -Dfile.encoding=UTF-8 -XX:+UseG1GC'
+call ADD_FLOW_SPARK_INGESTION_VERSIONS(
+	@version := 'stream-edge-default',
+	@spark_processing_jar := 1,
+	@rule_service_jar := 1,
+	@default_jar_set := 0,
+	@driver_classpath := 1,
+	@executor_classpath := 2,
+	@description := 'default version for streaming edges on default cluster',
+	@created_by := 'eklavya.k'
+);

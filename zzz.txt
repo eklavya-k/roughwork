@@ -6,5 +6,5 @@ version    |varchar(64) |NO  |   |       |              |
 path       |varchar(512)|NO  |   |       |              |
 full_name  |varchar(255)|YES |   |       |              |
 category   |varchar(64) |YES |MUL|       |              |
-cluster    |varchar(100)|YES |MUL|       |              |
+data_ingestion_tag    |int(10)|NO |MUL|       |              |
 status     |tinyint(1)  |YES |   |1      |              |

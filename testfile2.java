@@ -12,10 +12,23 @@ import java.util.Collections;
 import java.util.StringTokenizer;
 import java.util.regex.Pattern;
 
+class A{
+
+}
+
+class B extends A{
+	public String argument = "argument";
+}
+
 public class testfile2
 {
+	private static final String PATH_REGEX = "^[^/]+://([^/]+/)+([^/])*$";
+    private static final Pattern PATH_PATTERN = Pattern.compile(PATH_REGEX);
+
+	public String argument = "okay";
 	public static void main(String args[]) throws java.io.IOException
 	{
-		System.out.println(Math.log(0.0) / Math.log(0.0));
+		System.out.println(PATH_PATTERN.matcher("gcs://user").matches());
+
 	}
 }

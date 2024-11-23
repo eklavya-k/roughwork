@@ -13,7 +13,7 @@ done
 
 LOG4J_PATH=hdfs://nameservice1/prod_code/Data/master/config/log4j.properties
 
-export extra_jars=hdfs://nameservice1/user/data_admin/hadoop-styx/spark-sql-patch-3.0.jar,hdfs://${cluster}/user/data_admin/Data_deps/*.jar
+export extra_jars=hdfs://nameservice1/user/eklavya.k/ad_click_flow_in/hiveudf-1.0-SNAPSHOT.jar,hdfs://nameservice1/user/data_admin/hadoop-styx/spark-sql-patch-3.0.jar,hdfs://${cluster}/user/data_admin/Data_deps/*.jar
 
 printenv
 

@@ -1,0 +1,14 @@
+call ADD_FLOW_SPARK_PROCESSING_JARS(
+	@version := '3.5-rc90',
+	@path := 'hdfs://nameservice1/prod_code/Data/master/spark-processing/jars/spark-processing-3.5-rc90.jar',
+	@description := 'default cluster jar for spark-processing',
+	@created_by := 'eklavya.k'
+);
+
+
+call ADD_FLOW_RULE_SERVICE_JARS(
+	@version := '2.4-rc106',
+	@path := 'hdfs://nameservice1/prod_code/Data/master/rule-service/jars/rule-service-2.4-rc106.jar',
+	@description := 'default cluster jar for rule-service',
+	@created_by := 'eklavya.k'
+);

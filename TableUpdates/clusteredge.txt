@@ -1,0 +1,72 @@
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 1,
+	@edge_type := 'StructStreamEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default StructStreamEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 1,
+	@edge_type := 'StreamAggregateEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default StreamAggregateEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 1,
+	@edge_type := 'StreamEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default StreamEdge on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 1,
+	@edge_type := 'StructStreamCamusEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default StructStreamCamusEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 2,
+	@edge_type := 'BatchEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default BatchEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 2,
+	@edge_type := 'AggregateBatchEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default AggregateBatchEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 2,
+	@edge_type := 'BatchEdgeV2',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default BatchEdgeV2 on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 2,
+	@edge_type := 'NoopStreamEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default NoopStreamEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+
+call ADD_FLOW_CLUSTER_EDGE_INGESTIONS(
+	@ingestion_version_id := 3,
+	@edge_type := 'SQLStreamEdge',
+	@cluster := 'adc-auto-opt-hadoop',
+	@description := 'default SQLStreamEdge version on default cluster', 
+	@user_name := 'eklavya.k'
+);
+

@@ -1,24 +1,10 @@
-# jsonenv reads a json object as input and produces
-# escaped shell commands for setting environment vars
+import pandas as pd
 
-import json
-import pipes
-import sys
-import logging
+parquet_file_path = '/Users/eklavyakumar/Documents/roughwork/part-00000-cb76bcdb-529c-4e3d-970f-b98502f8b4d5.c000.snappy.parquet'
+json_file_path = 'result.json'
 
-logging.basicConfig(format='%(message)s')
-str = sys.stdin.read().replace('\\n', '')
-config = {}
-try:
-    for k, v in json.loads(str).items():
-        try:
-            k = pipes.quote(k)
-            v = pipes.quote(v)
-            config[k] = v
-            print "%s=%s ;  export %s;" % (k, v, k)
-        except:
-            continue
-    run_conf = config['extra_conf'].format(**config)
-    print "%s=%s ; export %s" % ("run_conf", run_conf, "run_conf")
-except:
-    logging.error('bad/missing edge config json')
+
+df = pd.read_parquet(parquet_file_path)
+df.to_json(json_file_path, orient='records', lines=True)
+
+print(f"Data successfully written to {json_file_path}")

@@ -1,0 +1,10 @@
+call ADD_FLOW_SPARK_INGESTION_VERSIONS(
+	@version := 'stream-edge-default',
+	@spark_processing_jar := 1,
+	@rule_service_jar := 1,
+	@default_jar_set := 0,
+	@driver_classpath := 1,
+	@executor_classpath := 2,
+	@description := 'default version for streaming edges on default cluster',
+	@created_by := 'eklavya.k'
+);
